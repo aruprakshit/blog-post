@@ -1,0 +1,32 @@
+.main.row-gap
+  .row
+    .col-md-9
+      .btn-group{:role => "group"}
+        %button.btn.btn-actions.glyphicon.glyphicon-ok{:type => "button"}
+        %button.btn.btn-actions.glyphicon.glyphicon-remove{:type => "button"}
+      %p.text-left Stylized implementation of HTML's element for abbreviations and acronyms to show the expanded version on hover. Abbreviations with a title attribute have a light dotted bottom border and a help cursor on hover, providing additional context on hover and to users of assistive technologies.
+    .col-md-3.btn-layouts
+      %button.btn.btn-actions.glyphicon.glyphicon-comment{:type => "button"}
+        %span.badge.comment-count 4
+      %button.btn.btn-actions.glyphicon.glyphicon-pencil{:type => "button"}
+      %button.btn.btn-actions.btn-favorite.glyphicon.glyphicon-star{:type => "button"}
+      %button.btn.btn-actions.glyphicon.glyphicon-trash{:type => "button"}
+  .row
+    %ul.col-md-12.comments.list-unstyled
+      %li.row.comment
+        %p.col-md-10 hi.........
+        .col-md-2.btn-layouts
+          %button.btn.btn-actions.glyphicon.glyphicon-trash{"data-placement" => "right", "data-toggle" => "tooltip", :title => "Delete Comment", :type => "button"}
+          %button.btn.btn-actions.glyphicon.glyphicon-pencil{"data-placement" => "left", "data-toggle" => "tooltip", :title => "Edit Comment", :type => "button"}
+      %li.row.comment
+        %p.col-md-10 hi.........
+        .col-md-2.btn-layouts
+          %button.btn.btn-actions.glyphicon.glyphicon-trash{"data-placement" => "right", "data-toggle" => "tooltip", :title => "Delete Comment", :type => "button"}
+          %button.btn.btn-actions.glyphicon.glyphicon-pencil{"data-placement" => "left", "data-toggle" => "tooltip", :title => "Edit Comment", :type => "button"}
+      %li.row.comment
+        %p.col-md-10 hi.........
+        .col-md-2.btn-layouts
+          %button.btn.btn-actions.glyphicon.glyphicon-trash{"data-placement" => "right", "data-toggle" => "tooltip", :title => "Delete Comment", :type => "button"}
+          %button.btn.btn-actions.glyphicon.glyphicon-pencil{"data-placement" => "left", "data-toggle" => "tooltip", :title => "Edit Comment", :type => "button"}
+      %li.row
+        %a.btn.btn-actions.glyphicon.glyphicon-plus{"data-placement" => "right", "data-toggle" => "tooltip", :href => "#", :role => "button", :title => "Add Comment"}

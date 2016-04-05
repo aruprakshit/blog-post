@@ -1,0 +1,54 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.row-gap {
+  margin-bottom: 10px;
+}
+
+.btn-favorite {
+  /*color: #fff;
+  background-color: #289454;
+  border-color: #289454;*/
+}
+
+.main {
+    border: 1px solid #EA8D15;
+    border-radius: 10px;
+    padding: 21px;
+    box-shadow: 6px 5px 5px 0px rgba(175, 115, 115, 0.75);
+}
+
+.btn-actions {
+  color: #5F5F1D;
+  background-color: #eee;
+  border-color: #eee;
+}
+
+.btn-layouts {
+  direction: rtl;
+  padding-right: 2px;
+  text-align: right;
+}
+
+.badge.comment-count {
+  left: 12px;
+  top: -3px;
+  background-color: transparent;
+  color: black;
+}
+
+.content {
+    border-bottom: 1px dotted #E6E2E2;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    text-align: justify;
+}
+
+.comments {
+  border-top: 2px solid #eee;
+
+  .comment {
+    border-bottom: 1px dotted #E6E2E2;
+  }
+}
